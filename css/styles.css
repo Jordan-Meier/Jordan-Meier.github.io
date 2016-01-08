@@ -9,6 +9,9 @@
 #header-text {
   color: #f6eaea;
   font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+  font-size: 100px;
+  font-weight: bold;
+
 }
 
 .stretch {
@@ -75,4 +78,12 @@ width: 500px;
 
 .about_title {
   font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+
+}
+
+/* Site map
+==================================*/
+
+.btn {
+  float: right;
 }

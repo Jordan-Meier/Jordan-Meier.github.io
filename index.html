@@ -27,10 +27,9 @@
           </button>
         </div>
         <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#About-Me">About Me</a></li>
+          <li><a href="#Contact-Me">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -83,6 +82,7 @@
 
     <div class="container-fluid" id="projectDesign">
       <div class='row text-center' id="projects">
+        <a name="Portfolio"></a>
         <h2 id="portfoliohead">Portfolio</h2>
         <div class="col-sm-3">
           <a href='https://jordan-meier.github.io/animal-shelter' class='thumbnail'><img src='images/animalshelter.jpg' alt='Animal Shelter' class='img-responsive img-thumbnail' /></a>
@@ -121,13 +121,19 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6" "col-sm-offset-2">
+          <a name="About-Me"></a>
           <h2 class="about_title">My name is Jordan, thanks for stopping by! </h2>
           <p>
-            Scooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby
+            I am a web developer in training,
           </p>
           <p>
             dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby dooby
           </p>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
         </div>
         <div class="col-sm-6">
           <img id="aboutphoto" src="images/aboutphoto.jpg" alt="" />
@@ -140,17 +146,42 @@
 
     <div class="container-fluid">
      <div class="row">
-       <div class="col-sm-12" id="sitemap">
+       <div class="col-sm-8" id="sitemap">
+         <a name="Contact-Me"></a>
          <h3>Sitemap</h3>
            <ul class="list-unstyled list-inline">
-             <li><a href="#">Packages</a></li>
-             <li><a href="#">Travel Accommodations</a></li>
-             <li><a href="#">Getting Around</a></li>
-             <li><a href="#">Gallery</a></li>
-             <li><a href="#">Contact</a></li>
+             <li><a href="#">Portfolio</a></li>
+             <li><a href="#">About Me</a></li>
+
+             <li>
+               <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Contact Me!</button>
+
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+               <div class="modal-dialog" role="document">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                     <h4 class="modal-title" id="myModalLabel">Contact Me!</h4>
+                   </div>
+                   <div class="modal-body">
+                     <p>jbirdmeier@gmail.com</p>
+                   </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                   </div>
+                 </div>
+               </div>
+              </div>
+             </li>
            </ul>
+
+
+
+
        </div>
      </div>
+   </div>
 
 
 
