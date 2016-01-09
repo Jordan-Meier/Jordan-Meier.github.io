@@ -2,16 +2,15 @@
 ### Project by Jordan Meier 
 
 
-This will be my project description!
+The intention of this project is set up a landing page for my web development/design portfolio.
 
 ## Installation
-This will talk about how to set it up.
+
+To install this project, open up a web browser and enter: https://jordan-meier.github.io
 
 ## Link to GitHub Pages site.
 
-## History
-TODO: Write history
-## Credits
-TODO: Write credits
+https://jordan-meier.github.io
+
 ## License
-TODO: Write license
+copyright Jordan Meier, 2016.
