@@ -19,7 +19,6 @@
     height:100%;
 }
 
-
 /* Nav bar
 ==================================*/
 
@@ -27,7 +26,6 @@
   margin-bottom: 0;
 
 }
-
 
 
 /* Carousel
@@ -61,6 +59,7 @@ width: 500px;
 
 #projectDesign {
   background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/congruent_pentagon.png');
+  margin-bottom: 20px;
 
 }
 
@@ -73,7 +72,22 @@ width: 500px;
   display: block;
   margin-left: auto;
   margin-top: 20px;
-  text-align: right;
+  margin-bottom: 20px;
+}
+
+#aboutphoto2 {
+  height: 70%;
+  width: 70%;
+  display: block;
+  margin-top: 20px;
+}
+
+
+
+#aboutme p ul {
+  font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+  font-size: 25px;
+  text-align: center;
 }
 
 .about_title {
@@ -86,4 +100,8 @@ width: 500px;
 
 .btn {
   float: right;
+}
+
+#sitemap {
+background-color: #aaefd2;
 }
