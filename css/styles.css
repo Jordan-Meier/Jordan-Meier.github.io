@@ -26,20 +26,25 @@
 }
 
 
-/* Carousel
+/* Photo Portfolio
 =================================*/
 
 .carousel-inner img {
   margin: 0 auto;
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
+}
+
+.jumbotron {
+  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/upfeathers.png');
+
 }
 
 #photos {
   background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/upfeathers.png');
 }
 
-/* Portfolio
+/* Web Portfolio
 ==================================*/
 #projects {
   margin-top: 40px;
@@ -85,10 +90,16 @@
 }
 
 
-#aboutme p li {
+#aboutme p {
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
-  text-align: center;
+  font-size: 20px;
+
+}
+
+#aboutme li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+
 }
 
 .about_title {
