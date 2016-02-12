@@ -1,22 +1,99 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Catamaran|Monoton|Monofett|Megrim|Raleway:400,500' rel='stylesheet' type='text/css'>    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
     <title>Jordan Meier Web Portfolio</title>
   </head>
   <body>
-    <div class="jumbotron">
-      <div class="container-fluid text-center">
-        <h1 id="header-text">Jordan Meier</h1>
+
+    <div class="container-fluid ">
+      <h1 id="header-text">Jordan Meier</h1>
+    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class='navbar-header'>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+          <li><a href="#Portfolio"><span class="link">Portfolio</span></a></li>
+          <li><a href="#About-Me"><span class="link">About Me</span></a></li>
+          <li><a href="https://sleepismycoffee.tumblr.com"><span class="link">Blog</span></a></li>
+        </ul>
       </div>
+    </nav>
+    <div class="container-fluid" id="projectDesign">
+      <div class='row text-center' id="projects">
+        <a name="Portfolio"></a>
+        <h2 id="portfoliohead">Web Portfolio</h2>
+        <div class="col-sm-3">
+          <a href='https://tcsuder.github.io/RecReRate' class='thumbnail'><img src='images/rec.jpg' alt='Animal Shelter' class='img-responsive img-thumbnail' /></a>
+          <h3>Final Project, Intro to Programming Class</h3>
+          <p> This is a website that I created with three other Epicodus students as our final project for Intro to Programming. It is a website where a user can browse or search for parks in the Portland area and leave reviews for the parks. To create this site, we used HTML and CSS, JavaScript, jQuery, Mocha and Chai.</p>
+        </div>
+        <div class="col-sm-3">
+          <a href='https://jordan-meier.github.io/ping-pong' class='thumbnail'><img src="images/pingPong.jpg" alt="ping pong" class='img-responsive img-thumbnail' /></a>
+          <h3>
+            Ping Pong
+          </h3>
+          <p> This is my week three of Intro to Programming code review. It is a website where a user can input a number and have a range of numbers from 1 to their entered number returned in a list. Numbers divisible by 3 are replaced with the word "ping", numbers divisible by 5 are replaced with "pong", and numbers divisible by both are replaced with "pingpong".</p>
+        </div>
+        <div class="col-sm-3">
+          <a href='https://jordan-meier.github.io/vacation-quiz' class='thumbnail'><img src="images/vacationQuiz.jpg" alt="airplane" class='img-responsive img-thumbnail' /></a>
+          <h3>
+            Vacation Destination Quiz
+          </h3>
+          <p> A website that I made for my second code review at Epicodus. It is a quiz that allows a user to answer a few questions and suggests a vacation destination based on their answers.</p>
+        </div>
+        <div class="col-sm-3">
+          <a href='http://jordan-meier.github.io/flashcard-site' class='thumbnail'><img src="images/flashcardsite.jpg" alt="JS flashcard site" class="img-responsive img-thumbnail" /></a>
+          <h3>
+            JavaScript Flashcard Site
+          </h3>
+          <p> This is a site that I made with <a href="https://github.com/trashmoldwilliams">Will</a> to get familiar with some JavaScript basics.</p>
+        </div>
+      </div>
+    </div>
+<hr>
+
+    <div class="container-fluid">
+      <div class="row" id="about">
+        <div class="col-sm-4" id="aboutme">
+          <a name="About-Me"></a>
+          <h2 class="about_title">My name is Jordan, thanks for stopping by! </h2>
+          <p>
+            I am a web developer in training at Epicodus in beautiful Portland, OR. I am a nature lover, a skiing enthusiast, an amateur musician and photographer. The images at the bottom of this page are from some of my adventures!
+          </p>
+          <p>
+            When I am not learning how to code, you will find me:
+              <ul>
+                <li>Skiing</li>
+                <li>Playing guitar</li>
+                <li>Hiking</li>
+                <li>Fishing</li>
+                <li>Camping</li>
+                <li>Spoiling my dog and cat</li>
+              </ul>
+          </p>
+        </div>
+        <div class="col-sm-6"> <img id="aboutphoto" src="images/aboutphoto.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div id="photos" class="container-fluid">
+      <h2>Photo Portfolio</h2>
     </div>
     <div class="container-fluid">
       <div class="row" id='welcome_message'>
-        <div id="carousel-example-generic" class="carousel slide jumbotron" data-ride="carousel">
-          <!-- Indicators -->
+        <div id="carousel1" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -52,87 +129,7 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Jordan's Portfolio</a>
-        <div class='navbar-header'>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#About-Me">About Me</a></li>
-          <li><a href="#Contact-Me">Contact</a></li>
-          <li><a href="https://sleepismycoffee.tumblr.com">Blog</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container-fluid" id="projectDesign">
-      <div class='row text-center' id="projects">
-        <a name="Portfolio"></a>
-        <h2 id="portfoliohead">Portfolio</h2>
-        <div class="col-sm-3">
-          <a href='https://tcsuder.github.io/RecReRate' class='thumbnail'><img src='images/rec.jpg' alt='Animal Shelter' class='img-responsive img-thumbnail' /></a>
-          <h3>Final Project, Intro to Programming Class</h3>
-          <p> This is a website that I created with three other Epicodus students as our final project for Intro to Programming. It is a website where a user can browse or search for parks in the Portland area and leave reviews for the parks. To create this site, we used HTML and CSS, JavaScript, jQuery, Mocha and Chai.</p>
-        </div>
-        <div class="col-sm-3">
-          <a href='https://jordan-meier.github.io/ping-pong' class='thumbnail'><img src="images/pingPong.jpg" alt="ping pong" class='img-responsive img-thumbnail' /></a>
-          <h3>
-            Ping Pong
-          </h3>
-          <p> This is my week three of Intro to Programming code review. It is a website where a user can input a number and have a range of numbers from 1 to their entered number returned in a list. Numbers divisible by 3 are replaced with the word "ping", numbers divisible by 5 are replaced with "pong", and numbers divisible by both are replaced with "pingpong".</p>
-        </div>
-        <div class="col-sm-3">
-          <a href='https://jordan-meier.github.io/vacation-quiz' class='thumbnail'><img src="images/vacationQuiz.jpg" alt="airplane" class='img-responsive img-thumbnail' /></a>
-          <h3>
-            Vacation Destination Quiz
-          </h3>
-          <p> A website that I made for my second code review at Epicodus. It is a quiz that allows a user to answer a few questions and suggests a vacation destination based on their answers.</p>
-        </div>
-        <div class="col-sm-3">
-          <a href='http://jordan-meier.github.io/flashcard-site' class='thumbnail'><img src="images/flashcardsite.jpg" alt="JS flashcard site" class="img-responsive img-thumbnail" /></a>
-          <h3>
-            JavaScript Flashcard Site
-          </h3>
-          <p> This is a site that I made with <a href="https://github.com/trashmoldwilliams">Will</a> to get familiar with some JavaScript basics.</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-4" id="aboutme">
-          <a name="About-Me"></a>
-          <h2 class="about_title">My name is Jordan, thanks for stopping by! </h2>
-          <p>
-            I am a web developer in training at Epicodus in beautiful Portland, OR. I am a nature lover, a skiing enthusiast, an amateur musician and photographer. The images at the very top of this page are from some of my adventures!
-          </p>
-          <p>
-            When I am not learning how to code, you will find me:
-              <ul>
-                <li>Skiing</li>
-                <li>Playing guitar</li>
-                <li>Hiking</li>
-                <li>Fishing</li>
-                <li>Camping</li>
-                <li>Spoiling my dog and cat</li>
-              </ul>
-          </p>
-        </div>
-
-        <div class="col-sm-6"> <img id="aboutphoto" src="images/aboutphoto.jpg" alt="" />
-        </div>
-        <div class="col-sm-2"> <img id="aboutphoto2" src="images/travel-photo.jpg" alt="travel photo" />
-        </div>
-      </div>
-    </div>
-
+    <hr>
     <div class="container-fluid">
      <div class="row">
        <div class="col-sm-12" id="sitemap">
